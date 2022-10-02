@@ -1,0 +1,49 @@
+.bg-img {
+
+    min-height: 380px;
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  body{
+
+    background-image: url("./images/login2.jpg");
+
+  }
+#email1_error {
+    display: block;
+    color: red;
+    margin: 5px 0 0 0;
+    font-size: small;
+  }
+
+  #pass1_error {
+    display: block;
+    color: red;
+    margin: 5px 0 0 0;
+    font-size: small;
+  }
+
+  #pass1_error_Login {
+    display: block;
+    color: red;
+    margin: 5px 0 0 0;
+    font-size: small;
+    max-width: 240px;
+  }
+
+  #pass2_error {
+    display: block;
+    color: red;
+    margin: 5px 0 0 0;
+    font-size: small;
+  }
+
+  #name1_error {
+    display: block;
+    color: red;
+    margin: 5px 0 0 0;
+    font-size: small;
+  }

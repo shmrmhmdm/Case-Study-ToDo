@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script type = "text/javascript" src = "./form.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+
+        <link href="style.css" rel="stylesheet" >
+
+    </head>
+
+<body class="bgimg">
+    <nav class="navbar navbar_bg sticky-top navbar-expand-sm navbar-dark bg-dark ml-0 mr-0 mt-0 mb-0">
+       
+    
+    </nav>
+    <div class="container">
+ 
+        
+        
+        
+        <div class="nav_bg bg-img card bg-light w-50 ml-auto mr-auto">
+        <article class="card-body mx-auto" style="max-width: 400px;">
+            <h4 class="card-title mt-3 text-center">Login</h4>
+
+
+            <form name="form1" id="form1"> 
+            <span class="mt-0" id="name1_error"></span>
+
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                 </div>
+                <input name="name1" id="name1" class="form-control" placeholder="User name" type="text" onkeyup="ValidateName()" required>
+            </div> <!-- form-group// -->
+            
+
+            <span class="mt-0" id="pass1_error"></span>
+            <span id="password-text"></span>
+
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input  name="pass1" id = "pass1" class="form-control" placeholder="password" type="password" onkeyup="ValidatePwd()"  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 to 15  characters" required>
+            </div> <!-- form-group// -->
+
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-block" value="Login">
+            </div> <!-- form-group// -->      
+        </form>
+        </article>
+        </div> <!-- card.// -->
+        
+        </div> 
+        <!--container end.//-->
+        
+       </body>
+</html>
